@@ -1,0 +1,45 @@
+.containerRight  .containerChat .message {
+    display: flex;
+    background: rgba(175, 174, 174, 0.233);
+    width: 103%;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+ }
+
+.containerRight  .containerChat .message .iconImage {
+     flex: 10%;
+ }
+
+.containerRight  .containerChat .message .input {
+     flex: 65%;
+ }
+
+.containerRight  .containerChat .message .iconSend {
+     flex: 15%;
+ }
+
+.containerRight  .containerChat .message .iconImage img {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.containerRight  .containerChat .message .input input {
+    width: 800px;
+    height: 47px;
+    background: rgba(171, 171, 171, 0.15);
+    margin-top: 12px;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin-left: 25px;
+    border: none;
+ }
+
+.containerRight  .containerChat .message .iconSend img {
+    width: 36px;
+    height: 36px;
+    margin-top: 17px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

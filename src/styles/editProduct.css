@@ -1,0 +1,70 @@
+body {
+    background-color: #0B0B0B;
+}
+
+.editH1 h1 {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 145px;
+    margin-bottom: 35px;
+}
+
+.TextEditProduct {
+    display: flex;
+    margin-left: 145px;
+}
+
+.TextEditProduct p {
+    font-size: 16.5px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.TextEditProduct .uploadImage {
+    width: 126px;
+    height: 45px;
+    background: #F74D4D;
+    border: 2px solid #F74D4D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form input{
+    width: 1272px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 145px;
+    margin-bottom: 30px;
+}
+
+form textarea {
+    width: 1272px;
+    height: 120px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 145px;
+    margin-bottom: 30px;
+}
+
+.btnEditProduct button {
+    width: 1272px;
+    height: 50px;
+    left: 84px;
+    top: 793px;
+    background: #56C05A;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    margin-left: 145px;
+    border: none;
+}

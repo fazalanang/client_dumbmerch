@@ -1,0 +1,54 @@
+body {
+    background-color: #0B0B0B;
+}
+
+h3 {
+    font-weight: 630;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F74D4D;
+    margin-top: 50px;
+    margin-left: 108px;
+}
+
+.product {
+    display: flex;
+    margin-left: 108px;
+}
+
+.product img {
+    width: 231px;
+    height: 302px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.product h4 {
+    font-size: 18px;
+    margin-left: 13px;
+    color: #F74D4D;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-size: 14px;
+    margin-left: 13px;
+    margin-top: 0%;
+    margin-bottom: 7px;
+    color: #FFFFFF;
+}
+
+.product .mouse {
+    width: 231px;
+    height: 410px;
+    background: #212121;
+    border-radius: 5px;
+}
+
+.product .keyboard {
+    width: 231px;
+    height: 410px;
+    background: #212121;
+    border-radius: 5px;
+    margin-left: 20px;
+}

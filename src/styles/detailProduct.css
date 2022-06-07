@@ -1,0 +1,59 @@
+body {
+    background-color: #0B0B0B;
+}
+
+.detailContainer {
+    display: flex;
+    margin-top: 60px;
+}
+
+.detailContainer .detailLeft {
+    flex: 37%;
+    margin-left: 300px;
+}
+
+.detailContainer .detailLeft img {
+    width: 416px;
+    height: 535px;
+}
+
+.detailContainer .detailRight {
+    flex: 63%;
+}
+
+.detailContainer .detailRight h1 {
+    font-size: 48px;
+    color: #F74D4D;
+}
+
+.detailContainer .detailRight p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.detailContainer .detailRight .point p {
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.detailContainer .detailRight .detailText {
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+.detailContainer .detailRight h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: #F74D4D;
+    margin-left: 410px;
+}
+
+.detailContainer .detailRight .detailButton button {
+    width: 544px;
+    height: 40px;
+    background: #F74D4D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}

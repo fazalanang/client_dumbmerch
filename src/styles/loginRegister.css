@@ -1,0 +1,126 @@
+body {
+    background-color: #0B0B0B;
+    ;
+}
+
+.Login {
+    display: flex;
+}
+
+.login-left {
+    flex:  50%;
+}
+
+.login-left img {
+    width: 294px;
+    height: 298px;
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.login-left h1 {
+    font-weight: 750;
+    font-size: 60px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-left: 135px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.login-left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6A6A6A;
+    margin-left: 135px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.login-left .button-login{
+    display: flex;
+    margin-top: 90px;
+}
+
+.login-left .button-login .btnLogin{
+    flex: 25%;
+    margin-left: 135px;
+}
+
+.login-left .button-login .btnLogin button {
+    font-weight: 600;
+    font-size: 16px;
+    width: 115px;
+    height: 35px;
+    background: #F74D4D;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.login-left .button-login .btnRegister{
+    flex:75%
+}
+
+.login-left .button-login .btnRegister button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+    background-color: transparent;
+    color: #B7B7B7;
+}
+
+.login-right {
+    flex: 50%;
+}
+
+.loginContainer{
+    width: 325px;
+    height: auto;
+    background: #181818;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 220px;
+    padding: 30px;
+}
+
+.loginContainer h1 {
+    width: auto;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.loginContainer .formLogin input {
+    font-weight: 200;
+    font-size: 17px;
+    display: block;
+    width: 320px;
+    height: 50px;
+    left: 33px;
+    top: 119px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    padding-left: 10px;
+}
+
+.loginContainer .buttonLogin button {
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 50px;
+    border: none;
+    background: #F74D4D;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+    }

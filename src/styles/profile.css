@@ -1,0 +1,132 @@
+body {
+    background-color: #0B0B0B;
+}
+
+nav .rightNav .h2Profile {
+    color: #F74D4D ;
+}
+
+.containerProfile {
+    display: flex;
+    margin-top: 50px;
+}
+
+.containerProfile .containerProfileLeft {
+    flex: 60%;
+    display: flex;
+}
+
+.containerProfile .containerProfileLeft .profileLeft h2 {
+    font-weight: 750;
+    font-size: 24px;
+    color: #F74D4D;
+    margin-top: 0%;
+    margin-left: 108px;
+    flex: 50%;
+}
+
+.containerProfile .containerProfileLeft .profileLeft img {
+    width: 318px;
+    height: 415px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+
+.containerProfile .containerProfileLeft .profileRight {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.containerProfile .containerProfileLeft .profileRight h5 {
+    font-size: 17px;
+    line-height: 25px;
+    color: #F74D4D;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+
+.containerProfile .containerProfileLeft .profileRight p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+.containerProfile .containerProfileRight {
+    flex: 40%;
+    margin-left: 50px;
+}
+
+.containerProfile .containerProfileRight h2 {
+    font-weight: 750;
+    font-size: 24px;
+    color: #F74D4D;
+    margin-top: 0%;
+}
+
+.containerProfile .containerProfileRight .transaction {
+    display: flex;
+    width: 494px;
+    height: 125px;
+    background: #303030;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft {
+    flex:80%;
+    display: flex;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft1 {
+    flex: 23%;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft1 img {
+    width: 80px;
+    height: 120px;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft2 {
+    flex: 77%;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft2 h6 {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 0%;
+    margin-left: 5px;
+    color: #F74D4D;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft2 .date {
+    font-size: 9px;
+    color: #F74D4D;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft2 .price500 {
+    font-size: 10px;
+    margin-top: 9px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionLeft .TransactionLeft2 h4 {
+    font-size: 10px;
+    margin-top: 45px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionRight {
+    flex: 20%;
+}
+
+.containerProfile .containerProfileRight .transaction .TransactionRight img {
+    width: 90px;
+    height: 90px;
+    margin-top: 8px;
+}
