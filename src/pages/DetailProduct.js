@@ -44,62 +44,6 @@ export default function DetailProduct() {
     };
   }, []);
 
-  // const handleBuy = useMutation(async () => {
-  //   try {
-  //     // Get data from product
-  //     const data = {
-  //       idProduct: product.id,
-  //       idSeller: product.user.id,
-  //       price: product.price,
-  //     };
-
-  //     // Data body
-  //     const body = JSON.stringify(data);
-
-  //     // Configuration
-  //     const config = {
-  //       method: "POST",
-  //       headers: {
-  //         Authorization: "Basic " + localStorage.token,
-  //         "Content-type": "application/json",
-  //       },
-  //       body,
-  //     };
-
-  //     // Insert transaction data
-  //     const response = await API.post("/transaction", body , config);
-  //     console.log(response);
-
-  //     // Create variabel for store token payment from response here ...
-  //     const token = response.payment.token;
-
-  //     // Init Snap for display payment page with token here ...
-  //     window.snap.pay(token, {
-  //       onSuccess: function (result) {
-  //         /* You may add your own implementation here */
-  //         console.log(result);
-  //         navigate("/profile");
-  //       },
-  //       onPending: function (result) {
-  //         /* You may add your own implementation here */
-  //         console.log(result);
-  //         navigate("/profile");
-  //       },
-  //       onError: function (result) {
-  //         /* You may add your own implementation here */
-  //         console.log(result);
-  //       },
-  //       onClose: function () {
-  //         /* You may add your own implementation here */
-  //         alert("you closed the popup without finishing the payment");
-  //       },
-  //     });
-
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // });
-
   const handleBuy = async () => {
     try {
       // Get data from product
